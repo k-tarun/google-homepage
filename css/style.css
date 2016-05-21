@@ -1,0 +1,93 @@
+nav {
+    display: block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 100%;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+nav li a {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #757575;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: #222;
+}
+
+.search {
+    text-align: center;
+}
+
+.search .text {
+    display: inline-block;
+    width: 584px;
+    height: 38px;
+    border: 1px solid #d9d9d9;
+    text-align: left;
+}
+
+.search .text:hover {
+    border: 1px solid #a0a0a0;
+}
+
+.search .text div {
+    margin: 5px 9px;
+}
+
+.search .text input {
+    border: none;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    display: inline-block;
+    width: 100%;
+}
+
+.search .text input:focus {
+    border: none;
+    outline: none;
+}
+
+.search input[type=submit] {
+    color: #757575;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    display: inline-block;
+    padding: 0 16px;
+    margin: 41px 4px 11px 4px;
+    height: 36px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.search input[type="submit"]:hover {
+    color: #222;
+    background: #f0f0f0;
+    border-color: #999999;
+}
+
+#Logo {
+    text-align: center;
+    display: block;
+    margin: 150px 0px 0px 0px;
+}
+
+#Logo img {
+    width: 300px;
+    height: 125px;
+}
